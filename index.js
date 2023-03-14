@@ -1,5 +1,6 @@
 const naoBtn = document.getElementById("nao");
 const simBtn = document.getElementById("sim");
+const mensagem = document.getElementById("mensagem");
 
 naoBtn.addEventListener("mouseover", () => {
   const x = Math.floor(Math.random() * window.innerWidth);
