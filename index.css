@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(190, 43, 43);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+  
