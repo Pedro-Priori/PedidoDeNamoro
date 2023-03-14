@@ -9,6 +9,6 @@ naoBtn.addEventListener("mouseover", () => {
   naoBtn.style.top = `${y}px`;
 });
 
-simBtn.addEventListener("click", () => {
-  alert("Você aceitou  hehehe agora é oficial ta namorando comigo neném, te amo muito <3 ");
+simBtn.addEventListener("click", function(){
+  mensagem.innerText ="Você aceitou  hehehe agora é oficial ta namorando comigo neném, te amo muito <3" 
 });
